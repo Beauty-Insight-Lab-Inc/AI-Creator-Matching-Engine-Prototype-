@@ -1,0 +1,30 @@
+# Environment variables
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Logs
+*.log
+
+# Saved models
+*.joblib
+
+# Data files (consider if these should be tracked or not)
+*.csv
+*.xlsx
+*.pdf
+
+# Other temporary or generated files
+# Add any other files or directories you want Git to ignore here
+
+# Large original data folders and files
+1_data_simulation/influencer_and_brand_dataset/users_influencers_SPOD/
+1_data_simulation/influencer_and_brand_dataset/users_brands_SPOD/
+1_data_simulation/influencer_and_brand_dataset/*.zip
+1_data_simulation/influencer_and_brand_dataset/*.txt
+1_data_simulation/influencer_and_brand_dataset/*.csv
