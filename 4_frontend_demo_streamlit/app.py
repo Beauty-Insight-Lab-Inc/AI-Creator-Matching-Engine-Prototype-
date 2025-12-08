@@ -5,7 +5,7 @@ import time
 
 # 1. 페이지 설정
 st.set_page_config(
-    page_title="Nurihaus AI Matching PoC",
+    page_title="AI Creator Matching Engine (Prototype)",
     page_icon="💄",
     layout="wide"
 )
@@ -17,9 +17,9 @@ else:
     API_URL = "http://127.0.0.1:8000"
 
 # 3. 헤더 섹션
-st.title("💄 Nurihaus Creator-Campaign AI Matching")
+st.title("💄 AI Creator Matching Engine (Prototype)")
 st.markdown("""
-**Nurihaus의 비즈니스 문제 해결을 위한 PoC 데모입니다.**
+**AI Creator Matching Engine (Prototype) 데모입니다.**
 AI가 과거 스폰서십 성과 데이터를 분석하여, 입력된 캠페인 조건에 대한 **예상 ROI**를 예측합니다.
 """)
 
